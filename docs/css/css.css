@@ -30,7 +30,7 @@ p, h1, h2, h3, h4, h5, h6 {padding: 0; margin: 0}
 .card.left {float: left; clear: left}
 .card.right {float: right; clear: right}
 .card.half {width: calc(50% - 40px)}
-.card:hover {transform: scale(1.05)}
+.card:hover {transform: scale(1.01)}
 .card p {margin-bottom: 4px}
 
 @keyframes slideIn {
