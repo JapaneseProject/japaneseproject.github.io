@@ -28,11 +28,6 @@ function setBackgroundImg() {
 }
 
 function setNavIcon() {
-	//Center Icons
-	$navIcons = $("#top-nav i");
-	for (var i = 0; i < $navIcons.length; i++) {
-		$($navIcons[i]).css("left", "calc(50% - " + String($($navIcons[i]).width() / 2) + "px)");
-	}
 	//Give Animation Delay
 	$links = $("#top-nav a");
 		for (var i = 0; i < $navIcons.length; i++) {
@@ -42,7 +37,7 @@ function setNavIcon() {
 
 function checkNavIcon() {
 	if ($("#top-nav i").length > 0) {
-		setTimeout(setNavIcon, 1000);
+		setTimeout(setNavIcon, 100);
 	}
 	else setTimeout(checkNavIcon, 50);
 }
