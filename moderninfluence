@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="bg-img-width" content="1920px">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Culture</title>
+	<link type="text/css" rel="stylesheet" href="/docs/fontawesome/css/all.css">
+	<link href="/docs/css/css.css" rel="stylesheet" type="text/css">
+	<style></style>
+	<script type="text/javascript" src="/docs/js/jquery.js" defer></script>
+	<script type="text/javascript" src="/docs/js/js.js" defer></script>
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/docs/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/docs/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/docs/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/docs/favicon/site.webmanifest">
+	<link rel="mask-icon" href="/docs/favicon/safari-pinned-tab.svg" color="#f55f55">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+	<img id="background" src="/images/lanterns.jpg">
+	<div id="top-nav"></div>
+	<div id="content-wrapper">
+		<div id="content">
+			<div class="card-group">
+				<div class="card left half">
+					<h1>Education</h1>
+					<p>To the Japanese, the love of learning is an important virtue of a man's life.</p>
+					<p>Eduation is a big part of Japanese culture.</p>
+					<p>Education isn't focused on critical thinking, it's more focused on test taking.</p>
+					<p>If parents find the schooling unsatisfactory, they can get a private tutor or send their kids to private schools.</p>
+					<p>Formal education didn't come to Japan until the Chinese language system, which was adopted in 500 CE. Before then, only the rich could afford education.</p>
+				</div>
+			</div>
+			<div class="card-group">
+				<div class="card left half">
+					<h1>Values (Besides Education)</h1>
+					<p>They keep their feelings to themselves, as is it perceived as strange if you display your emotions in public.</p>
+					<p>This is because of Taternae, or the belief that there is a divide between one's public expression and their private opinions.</p>
+					<p>Education isn't focused on critical thinking, it's more focused on test taking.</p>
+					<p>If parents find the schooling unsatisfactory, they can get a private tutor or send their kids to private schools.</p>
+					<p>Formal education didn't come to Japan until the Chinese language system, which was adopted in 500 CE. Before then, only the rich could afford education.</p>
+				</div>
+			</div>
+
+</body>
+</html>
