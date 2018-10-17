@@ -22,11 +22,12 @@ p, h1, h2, h3, h4, h5, h6 {padding: 0; margin: 0}
 #top-nav a:hover i {transform: translateY(-64px)}
 
 /* Content */
-#content {margin: 128px 10%; width: 80%; float: left}
+#content-wrapper {height: calc(100vh - 128px); margin-top: 128px; overflow-y: scroll;}
+#content {margin: 0 10%; width: 80%; float: left}
 
 /* Cards */
 .card-group {float: left; width: 100%}
-.card {width: 100%; background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 16px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25); font-family: sans-serif; position: relative; margin-bottom: 16px; transition: 0.1s}
+.card {width: auto; background-color: rgba(0, 0, 0, 0.5); color: #fff; padding: 16px; border-radius: 4px; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25); font-family: sans-serif; position: relative; margin-bottom: 16px; transition: 0.1s}
 .card.left {float: left; clear: left}
 .card.right {float: right; clear: right}
 .card.half {width: calc(50% - 40px)}
