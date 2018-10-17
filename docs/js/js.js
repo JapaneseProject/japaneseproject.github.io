@@ -42,7 +42,7 @@ function setNavIcon() {
 
 function checkNavIcon() {
 	if ($("#top-nav i").length > 0) {
-		setTimeout(setNavIcon, 50);
+		setTimeout(setNavIcon, 1000);
 	}
 	else setTimeout(checkNavIcon, 50);
 }
