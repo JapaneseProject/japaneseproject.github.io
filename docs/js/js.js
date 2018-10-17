@@ -7,7 +7,6 @@ function main() {
 
 function setUpStuff() {
 		setBackgroundImg();
-		checkNavIcon();
 }
 
 function loadStuff() {
@@ -25,21 +24,6 @@ function setBackgroundImg() {
 		"top" : "0"
 	});
 	$("style").append("@media screen and (max-width: " + imgWidth +") {#background{left: 50%; margin-left: " +String(parseInt(imgWidth, 10) / 2 * -1) + "px}}");
-}
-
-function setNavIcon() {
-	//Give Animation Delay
-	$links = $("#top-nav a");
-		for (var i = 0; i < $navIcons.length; i++) {
-			$($links[i]).css("animation-delay", String(i * 0.1) + "s");
-		}
-}
-
-function checkNavIcon() {
-	if ($("#top-nav i").length > 0) {
-		setTimeout(setNavIcon, 500);
-	}
-	else setTimeout(checkNavIcon, 50);
 }
 
 function switchTopNav() {
